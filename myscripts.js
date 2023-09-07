@@ -30,3 +30,5 @@ setInterval(updateUTCTime, 1000);
 
 // Initial update
 updateUTCTime();
+
+// Creating a smooth scroll effect//
