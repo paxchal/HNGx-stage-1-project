@@ -1,0 +1,100 @@
+#profile-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 20px;
+}
+
+.github-link {
+  margin-top: 20px;
+}
+
+/*  SECTION HERO */
+
+.section-hero {
+  height: 100vh;
+  padding-top: 5rem;
+}
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  align-items: center;
+
+  text-align: center;
+}
+.profile-pic {
+  border-radius: 50% 50% 50% 1%;
+  max-width: 18rem;
+}
+
+.intro-name {
+  font-size: 1.4rem;
+
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  box-shadow: 0 2px 4px rgba(80, 77, 77 0.2);
+}
+
+.track {
+  font-size: 0.8rem;
+  color: #d5b4a5;
+  font-weight: 500;
+}
+
+.time-btn:link,
+.time-btn:visited {
+  text-decoration: none;
+  border: solid 0.1rem #9e9cff;
+
+  color: #f3f3ff;
+  padding: 0.8rem 2.4rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  transition: all 0.4s;
+}
+
+.time-btn:hover,
+.time-btn:active {
+  background: linear-gradient(to bottom, #07090d, #243a72);
+}
+
+/* SECTION TIME */
+
+.section-time {
+  padding-top: 7.6rem;
+  padding-bottom: 16rem;
+}
+
+.time-cont {
+  text-align: center;
+  font-family: Fire code;
+}
+
+.time-cont p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* SECTION FOOTER */
+
+.github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171b24;
+  height: 4.8rem;
+}
+
+.git-link:link,
+.git-link:visited {
+  text-decoration: none;
+  color: #d5b4a5;
+  font-size: 0.8rem;
+}

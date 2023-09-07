@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+
+  color: #f3f3ff;
+  background: linear-gradient(to right, #07090d, #243a72);
+
+  background-size: cover;
+  overflow: none;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1.2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.typing-effect {
+  overflow: hidden; /* Hide overflow to simulate typing effect */
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-right: 1px solid rgba(252, 251, 251, 0.664); /* Add a cursor effect */
+
+  animation: typing 4s steps(30), cursor 1s infinite; /* Animation properties */
+  margin: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width (invisible) */
+  }
+  to {
+    width: 100%; /* Fully reveal the text */
+  }
+}
+
+@keyframes cursor {
+  from,
+  to {
+    border-right-color: transparent; /* Hide and show cursor */
+  }
+  50% {
+    border-right-color: white; /* Show cursor */
+  }
+}
