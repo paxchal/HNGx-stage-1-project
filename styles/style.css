@@ -1,16 +1,3 @@
-#profile-image {
-  max-width: 200px;
-  border-radius: 50%;
-}
-
-.container {
-  margin: 20px;
-}
-
-.github-link {
-  margin-top: 20px;
-}
-
 /*  SECTION HERO */
 
 .section-hero {
@@ -28,6 +15,19 @@
   align-items: center;
 
   text-align: center;
+}
+
+#profile-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 20px;
+}
+
+.github-link {
+  margin-top: 20px;
 }
 .profile-pic {
   border-radius: 50% 50% 50% 1%;
@@ -48,8 +48,6 @@
   font-weight: 500;
 }
 
-#see-time {
-}
 .time-btn:link,
 .time-btn:visited {
   text-decoration: none;
